@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color:#d2d2c1;
+    max-width: 1410px;
+}
+
+/** style pagina principal **/
+/** cabeçalho com menu de navegação são iguais a todos paginas **/
+.capa img{
+    width: 1380px;
+    height: 500px;
+}
+
+.menu  {
+    background-color: #c5c5b2;
+    font-size: 28px;
+    width: 1380px;
+    height: 50px;
+    display:flex;
+    justify-content:flex-start;
+    margin: -2px;
+    padding: 18PX ; 
+}
+
+.menu a {
+    margin: 10px;
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.conteudo {
+    width: 1380px;
+    height: 640px;
+    padding:10px;
+    font-size: 20px;
+}
+
+.conteudo  h1{
+    width: 1000px;
+    padding-left: 30px;
+}
+
+.conteudo p {
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px 5px;
+
+}
+
+.roda-pe {
+    width: 1420px;
+    height: 50px;
+}
+
+.roda-pe .direitos {
+    color: rgb(37, 34, 36);
+    width: 420px;
+    height: 20px;
+    margin-left: 50%;
+    margin-top: 60px;
+    padding: 10px;
+}
+
+.img-campanha {
+    width: 610px;
+    height: 400px;
+    border: 10px solid #c3c3ae;
+}
+
+/** style pagina (contato)**/
+
+.conteudo-principal h1 {
+    width: 400px;
+    height: 70px;
+    text-align: right;
+    font-size: 25px;
+}
+
+.inf-comercial {
+    width: 1200px;
+    margin-top: -30px;
+}
+
+.inf-comercial div{
+    width: 1150px;
+    text-align: right;
+
+}
+
+.inf-comercial p {
+    width: 900px;
+    padding-right: 80p;
+}
+
+.formulario{
+    width: 1000px;
+    height: 300px;
+    padding-left: 20px;
+}
+.formulario .mensagem {
+    margin:15px auto;
+    font-size: 20px;
+}
+
+.formulario .botao {
+    display: block;
+    font-size: 14px;
+}
+ /** style pagina (minhas-campanhas)**/
+
+ .fotos-campanhas{
+     width: 800px;
+     border: 10px solid #4b566a;
+     padding: 15px; /**formatei a imagem dentro da moldura **/
+     margin: 10px 10px 10px 10px;
+ }
+
+ .conteudo-campanhas {
+     width: 1200px;
+     font-size: 20px;
+     margin: 5px 5px 10px 10px;
+ }
+
+/** style pagina (minha-biografia)**/
+
+  h1{
+    width: 500px;
+    height: 50px;
+    margin: 10px;
+    padding-left: 40px;
+    font-size:35px;
+}
+
+.historia p {
+    font-size: 20px;
+    padding: 3px;
+    margin-left: 10px;
+    text-indent: 10px;
+   
+}
